@@ -1,0 +1,82 @@
+Model's parameters: {'alphabet': 'abcdefghijklmnopqrstuvwxyz0123456789,;.!?:\'"/\\|_@#$%^&*~`+-=<>()[]{}', 'depth': 9, 'max_length': 1024, 'shortcut': False, 'optimizer': 'adam', 'batch_size': 128, 'num_epochs': 20, 'lr': 0.001, 'dataset': 'agnews', 'es_min_delta': 0.0, 'es_patience': 3, 'input': 'input/ag_news_csv', 'output': 'output/ag_news_depth_9', 'log_path': 'tensorboard/vdcnn'}
+
+Epoch: 1/20 
+Test loss: 0.9841353297233582 Test accuracy: 0.6382894736842105 
+Test confusion matrix: 
+[[ 637  928  117  218]
+ [   0 1873    2   25]
+ [   7  342  907  644]
+ [   3  361  102 1434]]
+
+Epoch: 2/20 
+Test loss: 0.5774659514427185 Test accuracy: 0.7963157894736842 
+Test confusion matrix: 
+[[1720   90   59   31]
+ [ 104 1782    8    6]
+ [ 371   85 1229  215]
+ [ 307  106  166 1321]]
+
+Epoch: 3/20 
+Test loss: 0.8076361417770386 Test accuracy: 0.7114473684210526 
+Test confusion matrix: 
+[[1829   40   14   17]
+ [ 359 1532    6    3]
+ [ 862   20  887  131]
+ [ 588   41  112 1159]]
+
+Epoch: 4/20 
+Test loss: 0.4282749593257904 Test accuracy: 0.845 
+Test confusion matrix: 
+[[1554   57  118  171]
+ [  52 1653   57  138]
+ [  59   22 1524  295]
+ [  43   22  144 1691]]
+
+Epoch: 5/20 
+Test loss: 0.500188946723938 Test accuracy: 0.8122368421052631 
+Test confusion matrix: 
+[[1602   37   36  225]
+ [  92 1593    6  209]
+ [ 105   21 1165  609]
+ [  40   13   34 1813]]
+
+Epoch: 6/20 
+Test loss: 0.39794301986694336 Test accuracy: 0.8567105263157895 
+Test confusion matrix: 
+[[1504   65  207  124]
+ [  42 1760   44   54]
+ [  24   31 1565  280]
+ [  45   34  139 1682]]
+
+Epoch: 7/20 
+Test loss: 0.5080553889274597 Test accuracy: 0.8238157894736842 
+Test confusion matrix: 
+[[1521   30   88  261]
+ [  54 1509   46  291]
+ [  61    7 1455  377]
+ [  26    4   94 1776]]
+
+Epoch: 8/20 
+Test loss: 0.4067234992980957 Test accuracy: 0.8514473684210526 
+Test confusion matrix: 
+[[1576  101   57  166]
+ [  25 1812    8   55]
+ [  79   82 1336  403]
+ [  39   45   69 1747]]
+
+Epoch: 9/20 
+Test loss: 0.5737580060958862 Test accuracy: 0.8039473684210526 
+Test confusion matrix: 
+[[1555   48  266   31]
+ [  68 1673  151    8]
+ [  36   18 1802   44]
+ [  90   36  694 1080]]
+
+Epoch: 10/20 
+Test loss: 0.60770583152771 Test accuracy: 0.7827631578947368 
+Test confusion matrix: 
+[[1426  116   34  324]
+ [  12 1811    2   75]
+ [  46   74  882  898]
+ [  18   40   12 1830]]
+
