@@ -99,3 +99,4 @@ Below are the training/test loss/accuracy curves for each dataset's experiments 
 <img src="visualization/vdcnn_9_amazon_polarity.png" width="280"> <img src="visualization/vdcnn_17_amazon_polarity.png" width="280"> <img src="visualization/vdcnn_29_amazon_polarity.png" width="280">
 
 You could find detail log of each experiment containing loss, accuracy and confusion matrix at the end of each epoch in **output/datasetname_depth_number/logs.txt**, for example output/ag_news_depth_29/logs.txt.
+
